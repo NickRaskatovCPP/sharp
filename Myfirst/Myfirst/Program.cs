@@ -43,7 +43,7 @@ namespace Myfirst
             //Console.Writeline("Ваше имя: " + name + " Вам " + age + "лет!");
             //Выведет: Ваше имя Vasya Вам 27 лет!
             //Методом интерполяции это записывается так:
-
+            ////Console.Writeline($"Ваше имя: {name} Вам {age} лет!");
         }
 
     }
