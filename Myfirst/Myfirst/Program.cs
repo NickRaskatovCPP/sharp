@@ -62,6 +62,14 @@ namespace Myfirst
             //bool triggerInBool = ConvertToBoolean(trigger);
             //Console.WriteLine(triggerInBool); - получим true (т.к. 1 = true, 2 = false);
             //int reconvert = Convert.ToInt32(triggerInBool);
+
+            //Вывод в консоль: 
+            //Console.WriteLine();
+
+            //Считывание данных, которые ввел пользователь
+            //string name;
+            //name = console.ReadLine();
+            //Consoole.WriteLine($"Ваше имя: {name}");
         }
 
     }
