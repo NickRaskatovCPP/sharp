@@ -70,6 +70,13 @@ namespace Myfirst
             //string name;
             //name = console.ReadLine();
             //Consoole.WriteLine($"Ваше имя: {name}");
+
+            //Для ввода и вывода русских символов
+            //Console.InputEncoding = Encoding.Unicode;
+            //Console.OutputEncoding = Encoding.Unicode;
+            //string name;
+            //name = console.ReadLine();
+            //Consoole.WriteLine($"Ваше имя: {name}");
         }
 
     }
