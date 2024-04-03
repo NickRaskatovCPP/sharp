@@ -1,0 +1,7 @@
+C:\sharp\Myfirst\Myfirst\bin\Debug\Myfirst.exe.config
+C:\sharp\Myfirst\Myfirst\bin\Debug\Myfirst.exe
+C:\sharp\Myfirst\Myfirst\bin\Debug\Myfirst.pdb
+C:\sharp\Myfirst\Myfirst\obj\Debug\Myfirst.csproj.AssemblyReference.cache
+C:\sharp\Myfirst\Myfirst\obj\Debug\Myfirst.csproj.CoreCompileInputs.cache
+C:\sharp\Myfirst\Myfirst\obj\Debug\Myfirst.exe
+C:\sharp\Myfirst\Myfirst\obj\Debug\Myfirst.pdb
