@@ -43,7 +43,25 @@ namespace Myfirst
             //Console.Writeline("Ваше имя: " + name + " Вам " + age + "лет!");
             //Выведет: Ваше имя Vasya Вам 27 лет!
             //Методом интерполяции это записывается так:
-            ////Console.Writeline($"Ваше имя: {name} Вам {age} лет!");
+            //Console.Writeline($"Ваше имя: {name} Вам {age} лет!");
+
+            //конвертация (смена, изменение, приведение) типов данных:
+            //int age = 22;
+            //string input = "15";
+            //age = Convert.ToInt32(input); - конвертирует в int
+            //Console.WriteLine(); - выводит значение
+
+            //конвертация float на примере:
+            //float result
+            //int x = 5, y = 2;
+            //result = Convert.ToSingle(x) / y; - приводим к float (дробному числу)
+            //Console.WriteLine(result);
+
+            //конвертация bool переменных ( булевых значений )
+            //int trigger = 1;
+            //bool triggerInBool = ConvertToBoolean(trigger);
+            //Console.WriteLine(triggerInBool); - получим true (т.к. 1 = true, 2 = false);
+            //int reconvert = Convert.ToInt32(triggerInBool);
         }
 
     }
