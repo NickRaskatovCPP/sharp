@@ -292,6 +292,8 @@ namespace Myfirst
             //    while (age++ > 0 && age < 20)
             //    {
             //        Console.WriteLine("C др крч! Тебе исполнилось " + age);
+            //        if(age == 18) {
+            //            break;}  
             //    }
             //}
             //}
