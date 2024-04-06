@@ -111,17 +111,16 @@ namespace Myfirst
             //Пример калькулятора цены для магазина
             //int money;
             //int food;
-            //int foodUnitPrice = 10; 
+            //int foodUnitPrice = 10;
             //bool isAbleToPay;
 
-            //Console.writeline("Добро пожаловать в пекарню! Сегодня вся еда по Э + foodUnitPrice + " монет.");
-            //Console.write("Сколько у вас монет ?");
+            //Console.WriteLine("Добро пожаловать в пекарню! Сегодня вся еда по" + foodUnitPrice + "монет");
+            //Console.Write("Сколько у вас монет ?");
             //money = Convert.ToInt32(Console.ReadLine());
-            //Console.write("Сколько еды вам требуется?");
-            //food = convertToInt32(Console.ReadLine());
-
-            //isAbleToPay = money >= food * foodUnitPrice; -что бы избежать отрицательных чисел по монетам добавим bool
-            //food *= Convert.ToInt32(IsAbleToPay);
+            //Console.Write("Сколько еды вам требуется?");
+            //food = Convert.ToInt32(Console.ReadLine());
+            //isAbleToPay = money >= food * foodUnitPrice;
+            //food *= Convert.ToInt32(isAbleToPay);
             //money -= food * foodUnitPrice;
             //Console.WriteLine($"У вас в сумке {food} едениц еды, и {money} монет");
 
@@ -146,26 +145,41 @@ namespace Myfirst
             //using System;
             //class HelloWorld{
             //static void Main(){
-                //string day;
-                //Console.Write("Введите день недели: ПН,ВТ,СР,ЧТ,ПТ и т.д.");
-                //day = Console.ReadLine(); - приводить не надо, т.к. стринг
-                //if(day == "ПН")
-                //{
-                //Console.WriteLine("Плечи")
-                //}
-                //else if(day == "СР")
-                //{
-                //Console.WriteLine("Спина")
-                //}
-                //else if(day == "ПТ")
-                //{
-                //Console.WriteLine("Бицепс")
-                //}
-                //else
-                //{
-                //Console.WriteLine("Отдых")
-                //}
-            }
+            //string day;
+            //Console.Write("Введите день недели: ПН,ВТ,СР,ЧТ,ПТ и т.д.");
+            //day = Console.ReadLine(); - приводить не надо, т.к. стринг
+            //if(day == "ПН")
+            //{
+            //Console.WriteLine("Плечи")
+            //}
+            //else if(day == "СР")
+            //{
+            //Console.WriteLine("Спина")
+            //}
+            //else if(day == "ПТ")
+            //{
+            //Console.WriteLine("Бицепс")
+            //}
+            //else
+            //{
+            //Console.WriteLine("Отдых")
+            //}
+
+            //Операторы логического и/ или
+            //Логическое И && (аналог умножения, если одна из переменных false (0) то результат false (0)
+            //Логическое ИЛИ || (аналог сложения, если одна из переменных true (0) то результат true (0)
+
+
+            //Пример применения:
+            //int money = 500;
+            //int level = 9;
+            //if (money >= 500 || level > 9)
+            //{
+            //Console.WriteLine("Добро пожаловать");
+            //} else {
+            //Console.WriteLine("ПНХ");
+            //}
+        }
 
     }
 }
