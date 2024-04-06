@@ -275,7 +275,27 @@ namespace Myfirst
             //        break;
             //}
             //Console.WriteLine($"Ваш баланс: {rub} рублей " + $" {usdt} usdT");
-        }
+
+            //Циклы
+            //while - выполняется до тех пор, пока условие верно
+
+            //Пример
+
+            //using System;
+            //class HelloWorld
+            //{
+            //static void Main()
+            //{
+            //    int age;
+            //    Console.Write("Введите ваш возраст: ");
+            //    age = Convert.ToInt32(Console.ReadLine());
+            //    while (age++ > 0 && age < 20)
+            //    {
+            //        Console.WriteLine("C др крч! Тебе исполнилось " + age);
+            //    }
+            //}
+            //}
+    }
     }
 
 
