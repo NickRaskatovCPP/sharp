@@ -112,6 +112,7 @@ namespace Myfirst
             //int money;
             //int food;
             //int foodUnitPrice = 10; 
+            //bool isAbleToPay;
 
             //Console.writeline("Добро пожаловать в пекарню! Сегодня вся еда по Э + foodUnitPrice + " монет.");
             //Console.write("Сколько у вас монет ?");
@@ -119,9 +120,10 @@ namespace Myfirst
             //Console.write("Сколько еды вам требуется?");
             //food = convertToInt32(Console.ReadLine());
 
+            //isAbleToPay = money >= food * foodUnitPrice; -что бы избежать отрицательных чисел по монетам добавим bool
+            //food *= Convert.ToInt32(IsAbleToPay);
             //money -= food * foodUnitPrice;
             //Console.WriteLine($"У вас в сумке {food} едениц еды, и {money} монет");
-        
         }
 
     }
