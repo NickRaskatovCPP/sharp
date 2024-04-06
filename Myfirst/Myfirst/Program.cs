@@ -124,6 +124,44 @@ namespace Myfirst
             //food *= Convert.ToInt32(IsAbleToPay);
             //money -= food * foodUnitPrice;
             //Console.WriteLine($"У вас в сумке {food} едениц еды, и {money} монет");
+
+            //Условные конструкции If и прочие: 
+            //int age;
+            //Console.Write("Введите свой возраст: ")
+            //age = Convert.ToInt32(Console.ReadLine());
+            //if (age >= 18) - в круглых скобках пишем условия
+            //{ - внутри этих скобок выполняется код, если условие оказалось истинным (в данном случае age >= 18)
+            //Console.WriteLine("Велком!")
+            //Console.WriteLine("Чего вам плеснуть?")
+            //}
+            //else - выполняется это условие, если значение булевой переменной False
+            //{
+            //Console.WriteLine("Приходите когда вам исполнится " + (18 - age) + " лет")
+            //Console.WriteLine("ПНХ")
+            //}
+            //Console.WriteLine("сведение разветвления в 1 путь из IF и Else")
+
+
+            //Еще 1 пример: тренировки по дням недели
+            //string day;
+            //Console.Write("Введите день недели: ПН,ВТ,СР,ЧТ,ПТ и т.д.");
+            //day = Console.ReadLine(); - приводить не надо, т.к. стринг
+            //if(day == "ПН")
+            //{
+            //Console.WriteLine("Плечи")
+            //}
+            //else if(day == "СР")
+            //{
+            //Console.WriteLine("Спина")
+            //}
+            //else if(day == "ПТ")
+            //{
+            //Console.WriteLine("Бицепс")
+            //}
+            //else
+            //{
+            //Console.WriteLine("Отдых")
+            //}
         }
 
     }
