@@ -76,8 +76,21 @@ namespace Myfirst
             //Console.InputEncoding = Encoding.Unicode;
             //Console.OutputEncoding = Encoding.Unicode;
             //string name;
+            //Console.Writeline("Введите ваше имя: "); - если требуется вывод в одну строку - пишем write вместо writeline
             //name = console.ReadLine();
             //Consoole.WriteLine($"Ваше имя: {name}");
+
+            //При считывании данных из консоли - консоль возвращает строку, если нам надо вывести число:
+            //int age;
+            //Console.Writeline("Введите ваш возраст: ");
+            //age = Convert.ToInt32(console.ReadLine()); - приводим тип данных
+            //Consoole.WriteLine($"Ваш возраст: {name}");
+
+            //инкремент и декремент
+            //int i = 0;
+            //i++ - инкремент в постфиксной форме (увеличение на 1 после возврата переменной)
+            //--i - декремент в префиксной записи (уменьшение на 1 перед возвратом переменной)
+            //Console.Writeline(i)
         }
 
     }
