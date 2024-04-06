@@ -223,7 +223,61 @@ namespace Myfirst
             //Console.WriteLine("Пароль верен");}
             //else {
             //Console.WriteLine("Пароль не верен, осталась 1 попытка");}
-        }
 
+            //Конвертер валют (создали валюту задлали курсы валют)
+            //float rub;
+            //float usdt;
+            //int rubusdt = 94, usdtrub = 96;
+            //float howmutch;
+            //string operation;
+            //Console.WriteLine("Добро пожаловать в обменник!");
+            //Console.Write("Введите баланс в рублях ");
+            //rub = Convert.ToSingle(Console.ReadLine());
+            //Console.Write("Введите баланс в usdt ");
+            //usdt = Convert.ToSingle(Console.ReadLine());
+            //Console.WriteLine("Выберите операцию: ");
+            //Console.WriteLine("1. Обмен рублей на usdt ");
+            //Console.WriteLine("2. Обмен usdt на рубли ");
+            //Console.Write("Ваш выбор: ");
+            //operation = Console.ReadLine();
+            //switch (operation)
+            //{
+            //    case "1":
+            //        Console.WriteLine("Обмен рублей на usdt ");
+            //        Console.Write("Сколько вы хотите обменять? ");
+            //        howmutch = Convert.ToSingle(Console.ReadLine());
+            //        if (rub >= howmutch)
+            //        {
+            //            rub -= howmutch;
+            //            usdt += howmutch / rubusdt;
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Недопустимое кол-во");
+            //        }
+            //        break;
+            //    case "2":
+            //        Console.WriteLine("Обмен usdt на рубли ");
+            //        Console.Write("Сколько вы хотите обменять? ");
+            //       howmutch = Convert.ToSingle(Console.ReadLine());
+            //        if (usdt >= howmutch)
+            //        {
+            //            usdt -= howmutch;
+            //           rub += howmutch * usdtrub;
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Недопустимое кол-во");
+            //        }
+            //        break;
+            //    default:
+            //        Console.WriteLine("Выбрана неверная операция");
+            //        break;
+            //}
+            //Console.WriteLine($"Ваш баланс: {rub} рублей " + $" {usdt} usdT");
+        }
     }
+
+
+}
 }
