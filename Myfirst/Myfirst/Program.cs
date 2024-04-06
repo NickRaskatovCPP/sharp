@@ -91,6 +91,37 @@ namespace Myfirst
             //i++ - инкремент в постфиксной форме (увеличение на 1 после возврата переменной)
             //--i - декремент в префиксной записи (уменьшение на 1 перед возвратом переменной)
             //Console.Writeline(i)
+
+            //Пишем программу-калькулятор высчитывающую урон наносимый персонажу:
+            //int health;
+            //int armor;
+            //int damage;
+            //int precentConverter = 100; - переводит переменную армор в %
+
+            //Console.Writeline("Введите кол-во здоровья: ");
+            //healt = Convert.ToInt32(console.ReadLine());
+            //Console.Writeline("Введите кол-во брони: ");
+            //armor = Convert.ToInt32(console.ReadLine());
+            //Console.Writeline("Введите кол-во урона: ");
+            //damage = Convert.ToInt32(console.ReadLine());
+
+            //health -= damage * armor / precentConverter
+            //Consoole.WriteLine($"Вам нанесли {damage} урона, у вас осталось {helth} здоровья");
+
+            //Пример калькулятора цены для магазина
+            //int money;
+            //int food;
+            //int foodUnitPrice = 10; 
+
+            //Console.writeline("Добро пожаловать в пекарню! Сегодня вся еда по Э + foodUnitPrice + " монет.");
+            //Console.write("Сколько у вас монет ?");
+            //money = Convert.ToInt32(Console.ReadLine());
+            //Console.write("Сколько еды вам требуется?");
+            //food = convertToInt32(Console.ReadLine());
+
+            //money -= food * foodUnitPrice;
+            //Console.WriteLine($"У вас в сумке {food} едениц еды, и {money} монет");
+        
         }
 
     }
