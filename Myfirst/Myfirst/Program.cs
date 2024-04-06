@@ -189,11 +189,14 @@ namespace Myfirst
             //day = Console.ReadLine();
             //switch (day) {
             //  case "ПН":
+            //  case "ЧТ":
+            //  case "ПТ":
             //      Console.WriteLine("идем в кино");
             //      Console.WriteLine("идем в галлерею");
             //      Console.WriteLine("идем к памятникам");
             //      break;
             //  case "ВТ":
+            //  case "СБ":
             //      Console.WriteLine("едем в кино");
             //      Console.WriteLine("летим в кино");
             //      Console.WriteLine("мчимся в кино");
@@ -203,7 +206,13 @@ namespace Myfirst
             //      Console.WriteLine("идем в кино");
             //      Console.WriteLine("идем в кино");
             //      break;
+            //  default:
+            //      Console.WriteLine("Не верно указан день");
+            //  break;
             //}
+
+
+            //
         }
 
     }
