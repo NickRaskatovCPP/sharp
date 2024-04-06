@@ -295,9 +295,28 @@ namespace Myfirst
             //        if(age == 18) {
             //            break;}  
             //    }
+            //  }
             //}
+
+            //Можно сделать, что бы цикл пропустил одну итерацию
+            //пропустим поздравление с 16 летием:
+            //using System;
+            //class HelloWorld
+            //{
+            //static void Main()
+            //{
+            //    int age;
+            //    Console.Write("Введите ваш возраст: ");
+            //    age = Convert.ToInt32(Console.ReadLine());
+            //    while (age++ > 0 && age < 20)
+            //    {
+            //        if(age == 16) {
+            //            continue;}  
+            //    }
+            //        Console.WriteLine("C др крч! Тебе исполнилось " + age);
+            //  }
             //}
-    }
+        }
     }
 
 
