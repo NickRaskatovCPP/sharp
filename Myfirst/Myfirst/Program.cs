@@ -60,8 +60,9 @@ namespace Myfirst
             //конвертация bool переменных ( булевых значений )
             //int trigger = 1;
             //bool triggerInBool = ConvertToBoolean(trigger);
-            //Console.WriteLine(triggerInBool); - получим true (т.к. 1 = true, 2 = false);
+            //Console.WriteLine(triggerInBool); - получим true (т.к. 1 = true, 0 = false);
             //int reconvert = Convert.ToInt32(triggerInBool);
+            //Console.writeline(reconvert);
 
             //Вывод в консоль: 
             //Console.WriteLine();
