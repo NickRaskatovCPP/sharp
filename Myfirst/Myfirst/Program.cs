@@ -212,7 +212,17 @@ namespace Myfirst
             //}
 
 
-            //
+            //Проверка пароля через if
+            //string pass = "1234";
+            //string uInput;
+
+            //Console.WriteLine("Введите ваш пароль: ");
+            //uInput = Console.ReadLine();
+
+            //if(uInput == pass) {
+            //Console.WriteLine("Пароль верен");}
+            //else {
+            //Console.WriteLine("Пароль не верен, осталась 1 попытка");}
         }
 
     }
