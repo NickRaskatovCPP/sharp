@@ -179,6 +179,31 @@ namespace Myfirst
             //} else {
             //Console.WriteLine("ПНХ");
             //}
+
+            //Условный оператор switch - при нем все варианты взаимоисключающие.
+            //Его полезно применять при большом кол-ве вариантов сравнения.
+            //using System;
+            //class HelloWorld{
+            //static void Main(){
+            //string day;
+            //day = Console.ReadLine();
+            //switch (day) {
+            //  case "ПН":
+            //      Console.WriteLine("идем в кино");
+            //      Console.WriteLine("идем в галлерею");
+            //      Console.WriteLine("идем к памятникам");
+            //      break;
+            //  case "ВТ":
+            //      Console.WriteLine("едем в кино");
+            //      Console.WriteLine("летим в кино");
+            //      Console.WriteLine("мчимся в кино");
+            //      break;
+            //  case "СР":
+            //      Console.WriteLine("идем в кино");
+            //      Console.WriteLine("идем в кино");
+            //      Console.WriteLine("идем в кино");
+            //      break;
+            //}
         }
 
     }
