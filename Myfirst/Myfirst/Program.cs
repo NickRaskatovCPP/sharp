@@ -143,26 +143,29 @@ namespace Myfirst
 
 
             //Еще 1 пример: тренировки по дням недели
-            //string day;
-            //Console.Write("Введите день недели: ПН,ВТ,СР,ЧТ,ПТ и т.д.");
-            //day = Console.ReadLine(); - приводить не надо, т.к. стринг
-            //if(day == "ПН")
-            //{
-            //Console.WriteLine("Плечи")
-            //}
-            //else if(day == "СР")
-            //{
-            //Console.WriteLine("Спина")
-            //}
-            //else if(day == "ПТ")
-            //{
-            //Console.WriteLine("Бицепс")
-            //}
-            //else
-            //{
-            //Console.WriteLine("Отдых")
-            //}
-        }
+            //using System;
+            //class HelloWorld{
+            //static void Main(){
+                //string day;
+                //Console.Write("Введите день недели: ПН,ВТ,СР,ЧТ,ПТ и т.д.");
+                //day = Console.ReadLine(); - приводить не надо, т.к. стринг
+                //if(day == "ПН")
+                //{
+                //Console.WriteLine("Плечи")
+                //}
+                //else if(day == "СР")
+                //{
+                //Console.WriteLine("Спина")
+                //}
+                //else if(day == "ПТ")
+                //{
+                //Console.WriteLine("Бицепс")
+                //}
+                //else
+                //{
+                //Console.WriteLine("Отдых")
+                //}
+            }
 
     }
 }
