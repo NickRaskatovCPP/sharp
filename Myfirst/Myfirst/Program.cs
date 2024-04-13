@@ -357,9 +357,9 @@ class HelloWorld
             while (age++ > 0 && age < 20)
             {
                 Console.WriteLine("C др крч! Тебе исполнилось " + age);
-                if (age == 18)
+                if (age == 18) //условие остановки выполнения программы
                 {
-                    break;
+                    break; //точка остановки выполнения программы
                 }
             }
         }
@@ -375,12 +375,16 @@ class HelloWorld
             int age;
             Console.Write("Введите ваш возраст: ");
             age = Convert.ToInt32(Console.ReadLine());
-            while (++age > 0 && age < 20)
+            while (age-- > 0)
             {
-                if (age == 16) {
-                    continue; }
+
+                if (age == 16) //при каких условиях пропустить 1 итерацию скрипта
+                {
+                    continue; //точка пропуска итеррации скрипта
+                }
+                Console.WriteLine("C др крч! Тебе исполнилось " + age);
             }
-            Console.WriteLine("C др крч! Тебе исполнилось " + age);
+
         }
     }
 //Цикл For
