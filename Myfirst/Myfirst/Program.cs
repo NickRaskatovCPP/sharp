@@ -390,10 +390,69 @@ class HelloWorld
 //Цикл For
 //цикл с параметром. Обычно задается начальное и конечное значение переменной
 
-for (int i = 0; i< 10; i++) //i начинается с нуля, до тех пор пока i < 10 условие будет  
-    {                       //выполняться, каждую итерацию увеличиваем i на единицу
-        if(int==0) {            //Если не хотим выводить 0 - используем проверку и пропуск 0
-            continue;}
-        Console.WriteLine(i);
-     }
-}
+using System;
+class HelloWorld
+    {
+        static void Main() {
+            for (int i = 0; i < 10; i++) { //i начинается с нуля, до тех пор пока i < 10 условие будет 
+                Console.WriteLine(i);      //выполняться, каждую итерацию увеличиваем i на единицу
+            }                              //Если не хотим выводить 0 - используем проверку и пропуск 0
+        }
+    }
+
+//цикл for  на примере проверки пароля
+using System;
+class HelloWorld
+    {
+        static void Main()
+        {
+            int popitki = 5; //так как циклов 5 с уменьшением кол-ва попыток на 1 подойдет цикл for
+            string pass = "1234";
+            string user;
+
+            for (int i = 0; i < popitki; i++)
+            {
+                Console.Write("Введите пароль: ");
+                user = Console.ReadLine();
+                if (user == pass)
+                {
+                    Console.Write("Доступ разрешен");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Введен неправильный пароль, осталось " + (popitki - (i + 1)) + " попыток ");
+                }
+            }
+        }
+    }
+
+
+//калькулятор банковского вклада без пополнения
+using System;
+class HelloWorld
+    {
+        static void Main()
+        {
+            int year;
+            double money; //сколько денег
+            int years; //сколько лет
+            int percent; //процент годовых
+                         //просим пользователя ввести эти данные
+            Console.Write("Введите текущий год ");
+            year = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите сумму вклада: ");
+            money = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите срок вклада: ");
+            years = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите процент по вкладу: ");
+            percent = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i < years; i++)
+            {
+                money += money / 100 * percent;
+                Console.Write((i + 1) + ". В " + ++year + " году у вас " + money);
+                Console.ReadLine(); //что бы повторять итерацию по нажатию кнопки пишем это
+            }
+        }
+    }
