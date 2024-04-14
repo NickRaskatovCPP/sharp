@@ -434,6 +434,7 @@ class HelloWorld
     {
         static void Main()
         {
+            int moremoney;
             int year;
             double money; //сколько денег
             int years; //сколько лет
@@ -443,17 +444,18 @@ class HelloWorld
             year = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите сумму вклада: ");
             money = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Введите срок вклада: ");
+            Console.Write("Введите срок вклада (лет) : ");
             years = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите процент по вкладу: ");
             percent = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите сумму ежегодных довложений: ");
+            moremoney = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i < years; i++)
             {
-                money += money / 100 * percent;
+                money += money / 100 * percent + moremoney;
                 Console.Write((i + 1) + ". В " + ++year + " году у вас " + Math.Round(money, 2));
                 Console.ReadLine(); //что бы повторять итерацию по нажатию кнопки пишем это
             }
         }
     }
-
