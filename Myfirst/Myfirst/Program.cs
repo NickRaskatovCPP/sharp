@@ -451,8 +451,9 @@ class HelloWorld
             for (int i = 0; i < years; i++)
             {
                 money += money / 100 * percent;
-                Console.Write((i + 1) + ". В " + ++year + " году у вас " + money);
+                Console.Write((i + 1) + ". В " + ++year + " году у вас " + Math.Round(money, 2));
                 Console.ReadLine(); //что бы повторять итерацию по нажатию кнопки пишем это
             }
         }
     }
+
